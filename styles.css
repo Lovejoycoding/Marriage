@@ -1,0 +1,542 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/marriage.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+.col-12.heads{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-12.heads img{
+    width: 400px;
+    padding-top: 150px;
+}
+
+h2.perfect{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.show-modal {
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+.advertise{
+    background: white;
+    width: 90%;
+    margin: 100px auto;
+}
+.advertise .ad{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+    .advertise .ad .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertise .ad .row .col-12 p{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;  
+    padding: 20px;
+    margin: 25px;
+}
+.advertise .row  .col-12 img{
+        width: 100px;
+        padding: 20px;
+} 
+.why-work{
+    background: #ececec;
+    padding: 30px 0;
+}
+.why-work h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-work .work {
+    width: 90%;
+    margin: 20px auto;
+}
+.why-work .work .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.why-work .work .row .card.col-5{
+    font-size: 30px;
+}
+.why-work .work .row .card.col-5 .body{
+    background: white;
+    text-align: left;
+    padding:  20px;
+}
+.why-work .work .row .card.col-5 .body h3{
+    padding:  0px 0 40px 0;
+}
+.why-work .work .row .card.col-12{
+    font-size: 30px;
+}
+.why-work .work .row .card.col-12 .body{
+    background: white;
+    text-align: left;
+    padding:  20px;
+}
+.why-work .work .row .card.col-12 .body h3{
+    padding:  0px 0 40px 0;
+}
+.why-work .row .col-12 a.port{
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    background-color: grey;
+    margin: 20px;
+    cursor: pointer;
+}
+.review{
+    padding: 60px 0;
+}
+.review .duo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1300px; 
+    gap: 40px;
+}
+.yelp .col-6 img{
+    width: 500px;
+}
+.help .col-6 img{
+    width: 500px;
+}
+.row.word{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 500px;
+}
+.help .col-3.message p{
+    font-size: 26px;
+    padding: 25px 0;
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: center;
+}
+.help .col-3.message h5{
+    text-align: center;
+    font-size: 20px;
+}
+.help .row img.quotes{
+    width: 50px;
+    display: flex;
+    width: 50px;
+    margin: 0 auto;
+}
+.how{
+    background: #ececec;
+    padding: 30px 0;
+    width: 100%;
+}
+.how h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how .box{
+    width: 90%;
+    margin: 20px auto;
+}
+.box .row.three-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card-body{
+    background: white;
+    text-align: left;
+    padding:  20px;
+}
+.how h5{
+    font-size: 30px;
+    border-bottom: 2px solid grey;
+    padding:  40px 0;
+    font-weight: 100;
+}
+.how p{
+    font-size: 30px;
+    padding:  40px 0;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.button3{
+display: flex;
+justify-content: center;
+}
+.button3 {
+    margin: 30px 0;
+}
+.button3 a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+.about-page{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    gap: 30px;
+}
+.about-page .mischa .mischa-container{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+}
+.about-page .mischa{
+    width: 600px;
+    padding: 20px;
+}
+.about-page .col-6 h5{
+    font-size: 40px;
+    padding: 30px 0;
+}
+.about-page .col-6 p{
+    font-size: 28px;
+    line-height: 1.7;
+}
+.about-page .col-6 img{
+    display: flex;
+    width: 50px;
+    margin: 30px auto;
+
+}
+.about-page img.make-up{
+    width: 500px;
+}
+.close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  
+    background-color: white;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  .contact{
+    padding: 25px;
+    background-color: #ffffff;
+ }
+.contact .row{
+     width:100%;
+     margin: 0 auto;
+ }
+ .contact .form{
+    width: 100%;
+ }
+ .mb-3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+ }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+
+  
+
+
+@media only screen and (max-width: 500px){
+    .background{
+        margin-bottom: 1px;
+    }
+    .col-12.heads img{
+        width: 325px;
+        padding-top: 200px;
+    }
+    h2.perfect{
+        font-size: 15px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0 0 0;
+    }
+    .show-modal{
+        font-size: 25px;
+    }
+    .advertise{
+        margin: 50px auto;
+       
+    }
+    .advertise .ad .row .col-12 p{
+        font-size: 20px;
+        line-height: 1.2;  
+        padding: 10px;
+        margin: 10px;
+     }
+     .why-work h2{
+        font-size: 25px;
+     }
+     .why-work .work .row{
+        display: flex;
+        flex-direction: column;
+     }
+     .why-work .work .row .card.col-5.col-sm-12{
+
+        font-size: 20px;        
+        }
+     .why-work .work .row .card.col-12{
+        font-size: 20px;
+    }
+     .why-work .row .col-12 a{
+        font-size: 20px;
+    }
+    .review .duo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .row.word {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .yelp .col-6 img{
+        width: 90%;
+    }
+    .help .col-6 img{
+        width: 90%;
+    }
+    .help .col-3.message p{
+        font-size: 20px;
+    }
+    .how h2{
+        font-size: 30px;
+    }
+    .box .row.three-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .how h5{
+        font-size: 22px;
+        padding:  30px 0;
+    }
+    .how p{
+        font-size: 22px;
+        padding:  30px 0;
+    }
+    .button3 a{
+        font-size: 20px;
+    }
+    .about-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-page .mischa{
+        width: 100%;
+    }
+    .about-page .col-6 h5{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-page .col-6 p{
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .about-page img.make-up{
+        width: 90%;
+    }
+    .modal {
+        width: 80%;
+      }
+      .contact{
+        padding: 0px;
+     }
+    .contact .row{
+         width: 100%;
+         margin: 0 auto;
+     }
+     .contact .forms{
+        width: 100%;
+     }
+     .mb-3{
+
+        width: 90%;
+        height: 100%;
+
+     }
+}
+@media only screen and (max-width: 386px){
+    .background{
+        margin-bottom: 1px;
+    }
+    .col-12.heads img{
+        width: 200px;
+        padding-top: 100px;
+    }
+    h2.perfect{
+        font-size: 14px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding: 40px 0 0 0;
+    }
+    .show-modal{
+        font-size: 24px;
+    }
+    .advertise{
+        margin: 50px auto;
+       
+    }
+    .advertise .ad .row .col-12 p{
+        font-size: 20px;
+        line-height: 1.2;  
+        padding: 10px;
+        margin: 10px;
+        
+     
+     }
+     .why-work{
+        margin-bottom: 30px;
+     }
+     .why-work h2{
+        font-size: 22px;
+     }
+     .why-work .work .row{
+        display: flex;
+        flex-direction: column;
+     }
+     .why-work .work .row .card.col-5.col-sm-12{
+        font-size: 20px;
+       
+        
+        }
+     .why-work .work .row .card.col-12{
+        font-size: 20px;
+    }
+     .why-work .row .col-12 a.port{
+        font-size: 20px;
+    }
+    .review .duo{
+        display: flex;
+        flex-direction: column;
+    }
+    .row.word {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .yelp .col-6 img{
+        width: 90%;
+    }
+    .help .col-6 img{
+        width: 90%;
+    }
+    .how h2{
+        font-size: 30px;
+    }
+    .box .row.three-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .button3 a{
+        font-size: 20px;
+    }
+    .about-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-page .mischa{
+        width: 100%;
+    }
+    .about-page img.make-up{
+        width: 90%;
+    }
+    .modal {
+        width: 80%;
+      }
+      .contact{
+        padding: 0px;
+     }
+    .contact .row{
+         width: 100%;
+         margin: 0 auto;
+     }
+     .contact .forms{
+        width: 100%;
+     }
+     .mb-3{
+
+        width: 90%;
+        height: 100%;
+
+     }
+}
+
